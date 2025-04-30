@@ -62,13 +62,13 @@ As imagens abaixo ilustram as principais etapas do processo.
 As capturas estão armazenadas na pasta `/images`.
 
 - 📌 **Criação da VM:**  
-  ![Criação da VM](images/passo1-criacao.png)
+  ![Criação da VM](images/Criacao_da_VM.pdf)
 
 - 📌 **Configuração de rede:**  
-  ![Configuração de rede](images/vm-configuracao.png)
+  ![Configuração de rede](images/Configuracao_de_rede.pdf)
 
 - 📌 **Acesso via SSH:**  
-  ![Acesso via SSH](images/acesso-vm.png)
+  ![Acesso via SSH](Acesso_via_SSH.pdf)
 
 ---
 
