@@ -40,3 +40,49 @@ Este repositório documenta o processo de criação e configuração de uma máq
 - Acesso via SSH (Linux/macOS/WSL) ou via cliente RDP (Windows)
 ```bash
 ssh azureuser@<IP_PUBLICO_DA_VM>
+```
+
+### 4. Testes e Configurações Iniciais
+
+#### 🔄 Atualização do sistema:
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+#### 🧰 Instalação de pacotes úteis (exemplo):
+```bash
+sudo apt install curl git htop -y
+```
+
+---
+
+## 🖼️ Capturas de Tela
+
+As imagens abaixo ilustram as principais etapas do processo.  
+As capturas estão armazenadas na pasta `/images`.
+
+- 📌 **Criação da VM:**  
+  ![Criação da VM](images/passo1-criacao.png)
+
+- 📌 **Configuração de rede:**  
+  ![Configuração de rede](images/vm-configuracao.png)
+
+- 📌 **Acesso via SSH:**  
+  ![Acesso via SSH](images/acesso-vm.png)
+
+---
+
+## 💡 Dicas Úteis
+
+- Utilize grupos de recursos para organizar os recursos criados
+- Sempre revise as políticas de preços e limites do plano gratuito
+- Lembre-se de **parar ou excluir a VM** quando não estiver em uso, para evitar cobranças
+
+---
+
+## ✍️ Autor
+
+**Bruno Takeo**  
+[GitHub - @bruno-takeo](https://github.com/bruno-takeo)
+
+> _Projeto desenvolvido como parte do curso de Introdução ao Microsoft Azure, oferecido pela DIO._

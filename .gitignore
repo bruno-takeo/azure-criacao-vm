@@ -1,0 +1,7 @@
+# .gitignore padrão para projetos em Markdown
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+thumbs.db
